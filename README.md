@@ -25,7 +25,7 @@ This repo documents the roadmap I'm following, what I'm learning, and where I'm 
 
 The path is structured in four layers, each one building on the last.
 
-### Layer 1 — Backend Foundations
+### Layer 1 — Backend Foundations &nbsp; `May 2026 – Jul 2026`
 
 **[Scrimba Backend Developer Path](https://scrimba.com/the-backend-developer-path-c0tbi0l98f)**
 
@@ -48,9 +48,18 @@ This layer gives me the ability to build and own the full infrastructure beneath
 
 </details>
 
+<details>
+<summary><span style="color:#4A9EFF">📖 What I'm learning</span></summary>
+
+<br>
+
+→ Full curriculum breakdown: **[Layer 1 — Backend Foundations](layers/layer1-backend.md)**
+
+</details>
+
 ---
 
-### Layer 2 — AI Engineering Core
+### Layer 2 — AI Engineering Core &nbsp; `Aug 2026 – Oct 2026`
 
 **[Scrimba AI Engineer Path](https://scrimba.com/the-ai-engineer-path-c02v)**
 
@@ -73,9 +82,18 @@ This is where backend skills meet AI: I learn to build systems that are genuinel
 
 </details>
 
+<details>
+<summary><span style="color:#4A9EFF">📖 What I'm learning</span></summary>
+
+<br>
+
+→ Full curriculum breakdown: **[Layer 2 — AI Engineering Core](layers/layer2-ai-engineering.md)**
+
+</details>
+
 ---
 
-### Layer 3 — Systems Thinking
+### Layer 3 — Systems Thinking &nbsp; `Nov 2026 – Jan 2027`
 
 **[ByteByteGo — GenAI System Design](https://bytebytego.com/courses/genai-system-design-interview)** · [YouTube](https://www.youtube.com/@ByteByteGo)
 
@@ -98,9 +116,18 @@ ByteByteGo teaches the system design patterns used at companies like Google, Met
 
 </details>
 
+<details>
+<summary><span style="color:#4A9EFF">📖 What I'm learning</span></summary>
+
+<br>
+
+→ Full curriculum breakdown: **[Layer 3 — Systems Thinking](layers/layer3-systems.md)**
+
+</details>
+
 ---
 
-### Layer 4 — Deep ML Understanding `// target: late 2025 → 2026`
+### Layer 4 — Deep ML Understanding &nbsp; `Feb 2027 – Jun 2027`
 
 **[IBM AI Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ai-engineer)**
 
@@ -128,6 +155,15 @@ Most AI engineers stop at the API layer. The ones who go further — who underst
 Karpathy's curriculum rebuilds neural networks from scratch in pure Python. IBM covers the formal ML/DL engineering side. 3Blue1Brown fills the mathematical intuition that makes both of them click. Together they turn "I can use AI" into "I understand AI."
 
 **What I'm building toward:** The ability to read ML papers, fine-tune models with real understanding, and eventually build and train my own systems — not just integrate existing ones.
+
+</details>
+
+<details>
+<summary><span style="color:#4A9EFF">📖 What I'm learning</span></summary>
+
+<br>
+
+→ Full curriculum breakdown: **[Layer 4 — Deep ML Understanding](layers/layer4-deep-ml.md)**
 
 </details>
 
