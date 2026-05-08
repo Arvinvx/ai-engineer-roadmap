@@ -35,6 +35,19 @@ Solid backend engineering before touching ML. REST APIs, databases, auth, server
 - REST API design and authentication
 - Database modeling and querying
 
+<details>
+<summary><span style="color:#4A9EFF">💡 Why this layer?</span></summary>
+
+<br>
+
+AI systems don't exist in a vacuum — they run on servers, talk to databases, and serve users through APIs. Without solid backend skills, you're dependent on others to ship anything real.
+
+This layer gives me the ability to build and own the full infrastructure beneath an AI product: authentication, data persistence, REST APIs, and server logic. Everything else in this roadmap sits on top of this foundation.
+
+**What I'm building toward:** Being able to take an AI idea from zero to a live, working backend — without needing to hand it off.
+
+</details>
+
 ---
 
 ### Layer 2 — AI Engineering Core
@@ -46,6 +59,19 @@ Practical AI engineering: integrating LLMs into real products, building pipeline
 - LLM integration (OpenAI, Anthropic)
 - Embeddings, RAG, vector databases
 - AI-powered product development
+
+<details>
+<summary><span style="color:#4A9EFF">💡 Why this layer?</span></summary>
+
+<br>
+
+Knowing how to call an LLM API is table stakes. This layer goes deeper — prompt engineering, retrieval-augmented generation, building context-aware pipelines, and wiring AI into real product flows.
+
+This is where backend skills meet AI: I learn to build systems that are genuinely intelligent, not just wrappers around a ChatGPT call.
+
+**What I'm building toward:** Shipping AI features that solve real problems — search, summarization, recommendation, and automation built on top of LLMs.
+
+</details>
 
 ---
 
@@ -59,9 +85,22 @@ How to design AI systems that scale. Distributed architecture, caching, load bal
 - GenAI system design patterns
 - Scalability and reliability principles
 
+<details>
+<summary><span style="color:#4A9EFF">💡 Why this layer?</span></summary>
+
+<br>
+
+Building something that works is one thing. Building something that works at scale — under load, across distributed systems, with real reliability requirements — is another.
+
+ByteByteGo teaches the system design patterns used at companies like Google, Meta, and OpenAI. For AI specifically, this means understanding how to architect RAG pipelines, vector search at scale, model serving, and the infrastructure behind AI products that millions of people use.
+
+**What I'm building toward:** The ability to design and reason about AI systems that don't just work in demos — they work in production.
+
+</details>
+
 ---
 
-### Layer 4 — Deep ML Understanding
+### Layer 4 — Deep ML Understanding `// target: late 2025 → 2026`
 
 **[IBM AI Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ai-engineer)**
 
@@ -71,13 +110,26 @@ The math and engineering behind the models — not just how to call an API, but 
 - Deep learning and neural networks
 - MLOps and model deployment
 
-**[Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy)** · [Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)**
+**[Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy)** · [Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 
 Build neural networks from scratch. Understand what transformers are actually doing under the hood.
 
 **[3Blue1Brown](https://www.youtube.com/@3blue1brown)**
 
 The mathematical intuition behind linear algebra, calculus, and neural networks — the visual explanations that make the theory click.
+
+<details>
+<summary><span style="color:#4A9EFF">💡 Why this layer?</span></summary>
+
+<br>
+
+Most AI engineers stop at the API layer. The ones who go further — who understand what's actually happening inside a transformer, why attention works, what loss functions mean — have a compounding advantage.
+
+Karpathy's curriculum rebuilds neural networks from scratch in pure Python. IBM covers the formal ML/DL engineering side. 3Blue1Brown fills the mathematical intuition that makes both of them click. Together they turn "I can use AI" into "I understand AI."
+
+**What I'm building toward:** The ability to read ML papers, fine-tune models with real understanding, and eventually build and train my own systems — not just integrate existing ones.
+
+</details>
 
 ---
 
@@ -120,18 +172,6 @@ The long-term goal isn't just employment — it's building.
 I'm interested in **AI tools for small businesses and creators**: automating the workflows that waste time, surfacing insights from data that most people ignore, and making AI-powered products accessible to non-technical users.
 
 The technical foundation I'm building now is in service of that.
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-![Arvin's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Arvinvx&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Arvinvx&layout=compact&theme=github_dark&hide_border=true)
-
-</div>
 
 ---
 
