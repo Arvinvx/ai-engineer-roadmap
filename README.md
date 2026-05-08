@@ -1,182 +1,152 @@
-# AI Engineer Roadmap
+<div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+# Building Toward Full-Stack AI Engineering
 
-A practical roadmap for people who want to become AI engineers by learning backend development, full-stack development, machine learning basics, LLMs, AI apps, and system design.
+**From zero to shipping AI systems that matter.**
 
-No hype. No "become an AI engineer in 30 days." Just a realistic path with real resources and real projects.
+[![Twitter Follow](https://img.shields.io/twitter/follow/Arvinvx?style=for-the-badge&logo=x&logoColor=white&color=000000)](https://x.com/Arvinvx)
+[![GitHub followers](https://img.shields.io/github/followers/Arvinvx?style=for-the-badge&logo=github&logoColor=white&color=181717)](https://github.com/Arvinvx)
 
-## Who This Is For
+</div>
 
-| Audience | Why this works for you |
-|---|---|
-| Complete beginners | Starts from scratch, no assumed knowledge |
-| Self-taught developers | Fills the gaps in backend, ML, and AI systematically |
-| Web developers moving into AI | Builds on what you already know |
-| CS students | Practical and project-focused, good supplement to theory |
-| People building AI products | Teaches the full stack you need to actually ship things |
+---
 
-## The Roadmap
+## The Goal
 
-```
-Stage 1 → Programming & Backend Foundations     (2–4 months)
-Stage 2 → Full-Stack Development                (2–4 months)
-Stage 3 → Machine Learning Basics               (1–2 months)
-Stage 4 → AI Engineering & LLM Apps            (2–3 months)
-Stage 5 → LLM Internals                         (2–4 months)
-Stage 6 → System Design                         (ongoing)
-Stage 7 → Portfolio Projects
-Stage 8 → Career Direction
-```
+I'm building the technical foundation to become a **Full-Stack AI Engineer** — someone who can design, build, and deploy intelligent systems end to end.
 
-See [roadmap.md](roadmap.md) for the full breakdown with time estimates and topic lists.
+Not just prompting. Not just fine-tuning. The full stack: backend systems, ML infrastructure, LLM integration, and scalable product architecture.
 
-## Stage 1 — Programming and Backend Foundations
+This repo documents the roadmap I'm following, what I'm learning, and where I'm going.
 
-**Resource:** [Scrimba Backend Developer Path](https://scrimba.com/the-backend-developer-path-c0tbi0l98f)
-*(General Scrimba link: [scrimba.com](https://scrimba.com/?via=u43d5376) — heads up, this is a referral link)*
+---
 
-Before you touch AI, you need to understand how software is actually built. AI engineers write server-side code, call APIs, manage databases, and deploy applications. This stage gets you there.
+## Roadmap
 
-**Topics:**
-- Node.js and JavaScript for backend
-- REST APIs and HTTP
-- Databases — SQL and NoSQL
-- Authentication and authorization
-- Server architecture and routing
-- Real backend projects
+The path is structured in four layers, each one building on the last.
 
-AI models are tools. To use them well, you need to already know how to build the systems around them.
+### Layer 1 — Backend Foundations
 
-## Stage 2 — Full-Stack Development
+**[Scrimba Backend Developer Path](https://scrimba.com/the-backend-developer-path-c0tbi0l98f)**
 
-**Resource:** [Scrimba Backend Developer Path](https://scrimba.com/the-backend-developer-path-c0tbi0l98f) (continued) + your own projects
+Solid backend engineering before touching ML. REST APIs, databases, auth, server architecture — the infrastructure that AI systems run on top of.
 
-Most AI-powered products are full-stack apps with AI built in. If you only know the AI part and nothing about how real apps work, you're going to hit walls constantly.
+- Node.js, Express, MongoDB
+- REST API design and authentication
+- Database modeling and querying
 
-**Topics:**
-- Frontend basics (HTML, CSS, JavaScript)
-- Connecting a frontend to a backend API
-- Databases and data modeling
-- Auth flows — sessions, JWT, OAuth
-- Deployment and environment config
-- Building and shipping full projects end-to-end
+---
 
-## Stage 3 — Machine Learning Basics
+### Layer 2 — AI Engineering Core
 
-**Resource:** [DeepLearning.AI Machine Learning Specialization](https://learn.deeplearning.ai/specializations/machine-learning)
+**[Scrimba AI Engineer Path](https://scrimba.com/the-ai-engineer-path-c02v)**
 
-You don't need to be a math PhD to be an AI engineer. But you do need to understand how models actually learn — not just how to call an API. This stage gives you that foundation.
+Practical AI engineering: integrating LLMs into real products, building pipelines, working with embeddings and vector stores.
 
-**Topics:**
-- Supervised learning — regression and classification
-- Cost functions and gradient descent
-- Overfitting, regularization, and model evaluation
-- Basic neural networks
-- Decision trees and ensemble methods
-- Practical ML intuition — when to use what
+- LLM integration (OpenAI, Anthropic)
+- Embeddings, RAG, vector databases
+- AI-powered product development
 
-When something breaks in an AI feature, the engineers who understand how models work are the ones who can actually fix it.
+---
 
-## Stage 4 — AI Engineering and LLM Apps
+### Layer 3 — Systems Thinking
 
-**Resource:** [Scrimba AI Engineer Path](https://scrimba.com/the-ai-engineer-path-c02v)
-*(General Scrimba link: [scrimba.com](https://scrimba.com/?via=u43d5376) — referral link)*
+**[ByteByteGo — GenAI System Design](https://bytebytego.com/courses/genai-system-design-interview)** · [YouTube](https://www.youtube.com/@ByteByteGo)
 
-This is the core of what AI engineers actually do day-to-day. Building real apps with LLMs, shipping AI features, and making them work reliably in production.
+How to design AI systems that scale. Distributed architecture, caching, load balancing, and the patterns behind systems that handle millions of users.
 
-**Topics:**
-- Using LLM APIs (OpenAI, Anthropic, etc.)
-- Prompt engineering that works at scale
-- Retrieval-Augmented Generation (RAG)
-- Embeddings and semantic search
-- Vector databases — Pinecone, Weaviate, Chroma
-- AI agents and tool use
-- Building AI-powered apps end-to-end
-- Adding AI features to existing products
+- Distributed system design
+- GenAI system design patterns
+- Scalability and reliability principles
 
-## Stage 5 — LLM Internals
+---
 
-**Resources:**
-- [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)
-- [Andrej Karpathy — Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
+### Layer 4 — Deep ML Understanding
 
-Going under the hood makes you a significantly better AI engineer. You'll make better decisions, debug problems faster, and understand why things work the way they do.
+**[IBM AI Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ai-engineer)**
 
-**Topics:**
-- Transformers and the attention mechanism
-- Tokenization and embedding spaces
-- How neural networks learn
-- Training and fine-tuning basics
-- When to fine-tune vs. prompt engineer vs. RAG
-- Reading model cards and research papers
+The math and engineering behind the models — not just how to call an API, but how the underlying systems work.
 
-## Stage 6 — System Design
+- Machine learning theory and implementation
+- Deep learning and neural networks
+- MLOps and model deployment
 
-**Resource:** [ByteByteGo System Design Playlist](https://www.youtube.com/watch?v=dGAgxozNWFE&list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf&index=6)
+**[Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy)** · [Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)**
 
-AI systems at scale have the same challenges as any distributed system — plus a few new ones. This is what separates engineers who can build demos from engineers who can build products.
+Build neural networks from scratch. Understand what transformers are actually doing under the hood.
 
-**Topics:**
-- Scalability patterns
-- Caching — Redis, CDN
-- Message queues — Kafka, RabbitMQ
-- Load balancing
-- Database design at scale
-- Distributed systems
-- Designing real production AI pipelines
+**[3Blue1Brown](https://www.youtube.com/@3blue1brown)**
 
-## Stage 7 — Portfolio Projects
+The mathematical intuition behind linear algebra, calculus, and neural networks — the visual explanations that make the theory click.
 
-See [projects.md](projects.md) for the full list with descriptions.
+---
 
-| Level | Project |
-|---|---|
-| Beginner | AI chatbot with conversation memory |
-| Beginner | RAG document assistant — ask questions about a PDF |
-| Intermediate | AI customer support agent with escalation |
-| Intermediate | AI booking assistant for local businesses |
-| Intermediate | AI study assistant — summarize, quiz, explain |
-| Advanced | Full-stack SaaS with AI features |
-| Advanced | AI lead generation tool |
-| Advanced | Multi-agent system with tool use |
+## Tech Stack
 
-Build things you would actually use or that solve a real problem. Generic chatbots are everywhere. Projects with a specific use case or niche are what stand out.
+<div align="center">
 
-## Stage 8 — Career Direction
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 
-AI engineering job titles are still evolving. Here's what the common ones actually mean:
+</div>
 
-| Title | Focus |
-|---|---|
-| AI Engineer | Building apps and features using LLMs |
-| Full-Stack AI Engineer | End-to-end product development with AI |
-| LLM Engineer | Deep specialization in large language models |
-| AI Product Engineer | AI engineering with a product and user focus |
-| Backend AI Engineer | Server-side infrastructure for AI systems |
-| ML Engineer | Training, fine-tuning, and deploying models |
+---
 
-Most entry-level AI engineering roles are closer to "software engineer who works with AI APIs" than "ML researcher." Get the software fundamentals solid first.
+## Projects in Progress
 
-## Files in This Repo
+Things I'm building as I learn — each one designed to be real and shippable, not just tutorial clones.
 
-| File | What's inside |
-|---|---|
-| [README.md](README.md) | This overview |
-| [roadmap.md](roadmap.md) | Detailed stage breakdown with time estimates |
-| [resources.md](resources.md) | All resources with links and notes |
-| [projects.md](projects.md) | Project ideas from beginner to advanced |
-| [checklist.md](checklist.md) | Checkbox progress tracker |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
-| [LICENSE](LICENSE) | MIT |
+| Project | Description | Stack | Status |
+|--------|-------------|-------|--------|
+| **AI Research Assistant** | RAG-based tool for summarizing and querying documents | Node.js, OpenAI, Pinecone | In Progress |
+| **Backend API Starter** | Production-ready API boilerplate with auth, DB, and rate limiting | Express, MongoDB, JWT | In Progress |
+| **Neural Net from Scratch** | Implementing a transformer following Karpathy's curriculum | Python, NumPy | Planned |
+| **AI SaaS Template** | Full-stack template for shipping AI-powered products fast | Next.js, Prisma, OpenAI | Planned |
 
-## Contributing
+---
 
-Open source project — if you find a better resource, want to add a project idea, or spot something outdated, PRs and issues are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+## Startup Direction
 
-## License
+The long-term goal isn't just employment — it's building.
 
-[MIT](LICENSE) — free to use, share, and modify with attribution.
+I'm interested in **AI tools for small businesses and creators**: automating the workflows that waste time, surfacing insights from data that most people ignore, and making AI-powered products accessible to non-technical users.
 
-*Not sponsored by any platform listed. The Scrimba referral link is an affiliate link — it's included because the courses are actually good, not because of the commission.*
+The technical foundation I'm building now is in service of that.
+
+---
+
+## GitHub Stats
+
+<div align="center">
+
+![Arvin's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Arvinvx&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Arvinvx&layout=compact&theme=github_dark&hide_border=true)
+
+</div>
+
+---
+
+## Progress Log
+
+I post updates on what I'm learning, building, and shipping on X.
+
+Expect notes on: AI engineering concepts, system design, things that broke and why, and early looks at what I'm building.
+
+**[@Arvinvx on X](https://x.com/Arvinvx)**
+
+---
+
+<div align="center">
+
+*The best time to start was yesterday. The second best time is now.*
+
+</div>
